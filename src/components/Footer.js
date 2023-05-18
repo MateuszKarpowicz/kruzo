@@ -46,21 +46,24 @@ function Footer() {
                         <img className="footer-texture-img" src={footerTexture} alt="footer-texture" />
                     </div>
                     <div className="footer-contact">
+                        <div className="footer-contact-text-box">
                         <div className="footer-contact-header">
                         <span>Kontakt</span>
                         </div>
                         <div className="footer-contact-phone">
                         <img src={phoneNavbar} alt="phone-navbar" />
-                        <span>+48885398888</span>
+                        <span>+48 885 398 888</span>
                         </div>
                         <div className="footer-contact-mail">
                         <img src={mailNavbar} alt="mail-navbar" />
                         <span>info@crusoe.info</span>
                         </div>
+                        </div>
                     </div>
                     <div className="footer-social-links">
+                        <div className="footer-social-links-text-box">
                         <div className="footer-social-links-header">
-                        <span>Media społecznościowe</span>
+                        <span>Media</span>
                         </div>
                         <div className="footer-social-links-insta">
                         <img src={instaNavbar} alt="insta-navbar" onClick={handleButtonInsta} />
@@ -70,6 +73,7 @@ function Footer() {
                         <img src={fbNavbar} alt="fb-navbar" onClick={handleButtonFb} />
                         <span>Facebook</span>
                         </div>
+                    </div>
                     </div>
                     <div className="footer-apartments">
                         <div className="footer-apartments-header">
