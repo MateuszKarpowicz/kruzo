@@ -1,0 +1,74 @@
+{
+  "footer": {
+    "contact": "Kontakt",
+    "visitUs": "Odwiedź nas",
+    "copy": "Kopiuj",
+    "krakow": "Kraków",
+    "zakopane": "Zakopane",
+    "primosten": "Primosten",
+    "bandOfCreators": "BandOfCreators2023"
+  },
+  "navbar": {
+    "apartments": "Apartamenty",
+    "gallery": "Galeria",
+    "contact": "Kontakt",
+    "book": "Rezerwuj"
+  },
+
+  "homePageText": {
+    "title": "Luksusowe apartamenty w sercu Krakowa",
+    "description": "Jeśli planują Państwo romantyczny weekend we dwoje, dłuższy pobyt turystyczny czy wizytę biznesową w Krakowie, nasze prywatne apartamenty są dla Państwa idealną propozycją. Ich dogodne usytuowanie w samym sercu miasta, z jednej strony gwarantuje łatwy dostęp do najważniejszych zabytków, muzeów, restauracji, teatrów i innych centrów rozrywki. Z drugiej zaś strony, zapewnia spokój i dyskrecję. Zapewniamy osobisty serwis na najwyższym poziomie!",
+    "weProvide": "Zapewniamy",
+    "listItem1": "Ścisłe centrum Krakowa, historyczna dzielnica!",
+    "listItem2": "Bardzo dobra komunikacja miejska w pobliżu",
+    "listItem3": "3 minuty piechotą do Rynku Głównego",
+    "listItem4": "5 minut piechotą do Wawel",
+    "listItem5": "śniadanie w cenie"
+  },
+
+  "reviews": {
+    "header": "Co mówią nasi goście",
+    "review1": {
+      "author": "Jan Kowalski",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "review2": {
+      "author": "Anna Nowak",
+      "text": "Vestibulum ullamcorper mauris at ligula."
+    },
+    "review3": {
+      "author": "Piotr Wiśniewski",
+      "text": "Suspendisse potenti. In eleifend massa imperdiet augue."
+    },
+    "review4": {
+      "author": "Katarzyna Kowalczyk",
+      "text": "Mauris turpis nunc, blandit et, volutpat ullamcorper, mauris"
+    }
+  },
+
+  "apartment1": {
+    "title": "Crusoe Kraków",
+    "description": "Luksusowe apartamenty w sercu Krakowa\nNasze nowoczesne apartamenty znajdują się na drugim piętrze historycznej, nowo odrestaurowanej kamienicy w sercu Krakowa. Doskonała lokalizacja. 2-5 minut piechotą do Rynku Glównego, Wawelu, Wisły. Blisko Dworca Głównego PKP, dworca autobusowego, komunikacji miejskiej co pozwala na wygodne zwiedzanie miasta. Apartament składa się z przechodniego salonu z aneksem kuchennym, osobnej sypialni i luksusowo urządzonej łazienki z dużym prysznicem i deszczownicą. Nowoczesny, luksusowy wystrój łączy się z pięknem XIX-wiecznej cegły, którą skrywały stare tynki. Uwagę przykuje także ozdobna podłoga, która klimatem pasuje do historycznego miejsca. W cenę pobytu wliczone jest pyszne śniadanie w uroczej kawiarence Bon Jour Cava, znajdującej się w sąsiedztwie apartamentu."
+
+
+
+
+  },
+
+  "contactPage": {
+    "title": "Kontakt",
+    "phoneNumber": "+48 123 456 789",
+    "email": "contact@example.com",
+    "formTitle": "Napisz do nas",
+    "nameLabel": "Imię i nazwisko",
+    "emailLabel": "Adres e-mail",
+    "messageLabel": "Wiadomość",
+    "submitButton": "Wyślij",
+    "getDirectionsButton": "Jedź",
+    "mapLabel": "Dojedź do nas",
+    "description": "ul. Piłsudskiego 11\n33-323 Kraków\nPolska"
+  },
+  "friends": {
+    "title": "Nasi przyjaciele"
+  }
+}
