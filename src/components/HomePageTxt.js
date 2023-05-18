@@ -1,15 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import "../scss/HomePageTxt.scss"
 
 const HomePageText = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="col-md-6">
+        
             <div className="text-container">
-                <p>{t('homePageText.description')}</p>
-            </div>
-            <div className="text-container mt-4">
+                
                 <h2>{t('homePageText.weProvide')}</h2>
                 <ul>
                     <li>{t('homePageText.listItem1')}</li>
@@ -19,7 +18,6 @@ const HomePageText = () => {
                     <li>{t('homePageText.listItem5')}</li>
                 </ul>
             </div>
-        </div>
     );
 }
 

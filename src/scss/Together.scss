@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Nineteenth';
+  src: url('../fonts/Nineteenth.woff2') format('woff2'),
+  url('../fonts/Nineteenth.woff') format('woff');
+}
+.together-container{
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
+}
+@media screen and (max-width: 700px){
+  .together-container{
+ flex-direction: column-reverse;
+  }
+    }
+.together-text_container{
+  font-family: Nineteenth;
+  color: white;
+text-align: center;
+width: 25%;
+
+  h3{
+  font-size: 3.5em;
+    }
+
+  p{
+  font-size: 1.3em;
+  line-height: 2em;
+    }
+}
+@media screen and (max-width: 1170px){
+  .together-text_container{
+    
+    h3{
+      font-size:2.5em;
+    }
+    p{
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+}
+}
+@media screen and (max-width: 700px){
+  .together-text_container{
+    width: 100%;
+    padding: 20px 0;
+    h3{
+      font-size:2em;
+    }
+    p{
+      font-size: 1em;
+      line-height: 1.1em;
+    }
+}
+}
+.together-photo_container{
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-color: rgb(170, 103, 20);
+    border: 5px solid white;
+}
+@media screen and (max-width: 1170px){
+  .together-photo_container{
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 700px){
+  .together-photo_container{
+    height: 200px;
+    width: 200px;
+  }
+}

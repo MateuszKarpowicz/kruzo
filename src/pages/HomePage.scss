@@ -1,0 +1,41 @@
+.content-container{
+  width:100%;
+  height:100%;
+}
+.content-container_up{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width:100%;
+  height:600px;
+  background: linear-gradient(0.25turn, #B3803E, #0D0B0B);
+}
+@media screen and (max-width: 700px){
+  .content-container_up{
+flex-direction: column-reverse;
+  }
+}
+.content-container_mid{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:205px;
+}
+.content-container_lower{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:1400px;
+  background: linear-gradient(#101010, #6D6D6D, #101010);
+}
+@media screen and (max-width: 850px){
+  .content-container_lower{
+  height:1200px;
+  }
+}
+.content-container_bottom{
+  height: 110px;
+  background-color: black;
+  background-image: url(../assets/review/review_bg.png);
+background-size: cover;
+}

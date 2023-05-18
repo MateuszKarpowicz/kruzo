@@ -69,6 +69,15 @@
   },
   "friends": {
     "title": "Our Friends"
+  },
+  "sloganCrusoe":{
+    "title":"Magnificence",
+    "description":"The world with CRUSOE. The greatest luxury is travelling and staying happy."
+  },
+  "togetherPage":{
+    "title":"Let's Do It Together",
+    "description":"Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+    "website":"www.yourwebsite.com"
   }
 
 }

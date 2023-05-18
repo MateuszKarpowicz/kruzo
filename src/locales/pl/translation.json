@@ -70,5 +70,14 @@
   },
   "friends": {
     "title": "Nasi przyjaciele"
+  },
+  "sloganCrusoe":{
+    "title":"Majestatycznie",
+    "description":"Poznaj świat CRUSOE. Największym luksusem jest podróżować, pozostając szczęśliwym."
+  },
+  "togetherPage":{
+    "title":"Zróbmy to razem!",
+    "description":"Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+    "website":"www.yourwebsite.com"
   }
 }

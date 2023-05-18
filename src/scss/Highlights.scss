@@ -1,0 +1,71 @@
+.highlights-container{
+  background: linear-gradient(0.25turn, #0B0B0B, #3F3F3F);
+  width:100%;
+  height: 120px;
+  padding: 10px 0;
+}
+.highlights-icons{
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  height: 120px;
+  width: 100%;
+
+  .highlights-wifi{
+    height: 45px;
+  width: 60px;
+  background-size: cover;
+  }
+  .highlights-sofa{
+    height: 60px;
+  width: 63px;
+  background-size: cover;
+  }
+  .highlights-food{
+    height: 55px;
+  width: 60px;
+  background-size: cover;
+  }
+  .highlights-washer{
+    height: 60px;
+  width: 54px;
+  background-size: cover;
+  }
+  .highlights-clima{
+    height: 60px;
+  width: 54px;
+  background-size: cover;
+  }
+}
+@media screen and (max-width: 700px){
+  .highlights-container{
+  padding: 30px 0;
+  }
+  .highlights-icons{
+
+  .highlights-wifi{
+    height: 25px;
+    width: 35px;
+  }
+  .highlights-sofa{
+    height: 32px;
+  width: 35px;
+  background-size: cover;
+  }
+  .highlights-food{
+    height: 35px;
+  width: 35px;
+  background-size: cover;
+  }
+  .highlights-washer{
+    height: 35px;
+  width: 30px;
+  background-size: cover;
+  }
+  .highlights-clima{
+    height: 35px;
+  width: 32px;
+  background-size: cover;
+  }
+  }
+}

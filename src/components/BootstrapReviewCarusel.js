@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Carousel, Row, Col } from 'react-bootstrap';
 import InstagramWidget from './InstagramWidget';
+import '../scss/BootstrapReviewCarusel.scss';
 
 import image1 from '../assets/apartment/Image1.jpg';
 import image2 from '../assets/apartment/Image2.jpg';
@@ -27,7 +28,7 @@ const BootstrapReviewCarusel = () => {
     }, []);
 
     return (
-        <div className="container">
+        <div className="review-container">
             <Row className="align-items-start">
                 <Col md={6}>
                     <h2 className="reviews-header">{t('reviews.header')}</h2>
@@ -48,9 +49,6 @@ const BootstrapReviewCarusel = () => {
                             </Col>
                         ))}
                     </Row>
-                </Col>
-                <Col md={6}>
-                    <InstagramWidget />
                 </Col>
             </Row>
         </div>
