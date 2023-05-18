@@ -468,7 +468,44 @@ body {
     margin-right: 5px;
 }
 
-.footer-apartments span {
+.footer-apartments-primosten:hover {
+    transform: scale(1.1);
+    filter: brightness(0);
+
+}
+
+.footer-apartments-zakopane:hover {
+    transform: scale(1.1);
+    filter: brightness(0);
+
+}
+
+.footer-apartments span,
+.footer-apartments a,
+.footer-apartments .link {
     color: white;
     font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.footer-social-links-insta,
+.footer-social-links-fb {
+    transition: filter 0.3s ease;
+
+}
+
+.footer-social-links-insta:hover,
+.footer-social-links-fb:hover {
+    filter: brightness(0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-contact-phone:hover,
+.footer-contact-mail:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: brightness(0);
 }
