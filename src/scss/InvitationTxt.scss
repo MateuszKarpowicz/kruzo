@@ -11,7 +11,11 @@
   padding-left: 80px;
   padding-right: 0;
   padding-top: 50px;
-
+}
+@media screen and (max-width: 700px){
+  .invitation-container {
+   padding: 20px 40px;
+  }
 }
 
 .invitation-container-text {
