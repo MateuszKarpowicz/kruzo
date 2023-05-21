@@ -270,7 +270,11 @@ body {
     left: 0;
     right: 0;
 }
-
+@media screen and (max-width: 850px){
+    .footer-wrapper {
+    height:500px;
+    }
+  }
 .footer-container {
     display : flex;
     width: 100%;
@@ -278,7 +282,6 @@ body {
     font-family: Nineteenth, sans-serif;
     flex-direction: column;
     position: relative;
-
 }
 
 .footer-friends-container {
@@ -356,7 +359,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
+@media screen and (max-width: 850px){
+    .footer-contact-container {
+        height: 1000px;
+        flex-direction: column;
+    }
+  }
 
 .footer-contact-container:hover {
     color: black;
@@ -378,6 +388,7 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
 .footer-contact {
     flex: 1;
     display: flex;
