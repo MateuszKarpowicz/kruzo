@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Nineteenth';
+  src: url('../fonts/Nineteenth.woff2') format('woff2'),
+  url('../fonts/Nineteenth.woff') format('woff');
+}
+.home-text-container{
+  font-family: Nineteenth;
+  color: white;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+  h2{
+    font-size: 1.6em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  }
+  ul{
+    font-size: 1.2em;
+    line-height: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  }
+  ul li::before {
+    content: "";
+    display: inline-block;
+
+    background: var(--logo-url) no-repeat;
+    width: 1em;
+    height: 1em;
+    background-size: 1em;
+    margin-right: 0.5em;
+    background-color: transparent !important;
+
+  }
+}
+@media screen and (max-width: 1170px){
+  .home-text-container {
+    h2{
+      font-size:1.5em;
+    }
+    ul{
+      font-size: 1em;
+      line-height: 1em;
+    }
+}
+}
+@media screen and (max-width: 700px){
+  .text-container{
+    h2{
+      font-size:2em;
+    }
+    ul{
+      font-size: 1em;
+      line-height: 1.1em;
+    }
+}
+}

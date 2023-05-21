@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from "../components/Layout";
-import HomePageText from '../components/WeProvideTxt';
+import WeProvide from '../components/WeProvideTxt';
 import '../global.css';
 import './HomePage.scss'
 import BootstrapSlider from '../components/BootstrapSlider';
@@ -25,7 +25,7 @@ const HomePage = () => {
                         <div className="apartment-card-block">
                             <div className="apartment-card-block-left-side">
                         <InvitationTxt />
-                        <HomePageText />
+                        <WeProvide />
                         </div>
                             <div className="apartment-card-block-right-side">
                         <BootstrapSlider />
