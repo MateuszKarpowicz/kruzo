@@ -7,9 +7,8 @@ const InvitationTxt = () => {
 
     return (
         <div className="invitation-container">
-            <div className="invitation-container__text">
-                <h1>{t('invitationTxt.header')}</h1>
-                <h2>{t('invitationTxt.subheader')}</h2>
+            <div className="invitation-container-text">
+                <h2>{t('invitationTxt.description')}</h2>
             </div>
         </div>
     );

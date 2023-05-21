@@ -19,8 +19,6 @@
   },
 
   "homePageText": {
-    "title": "Luxury apartments in the heart of Krakow",
-    "description": "If you are planning a romantic weekend getaway, a longer tourist stay, or a business visit in Krakow, our private apartments are an ideal choice for you. Their convenient location in the very heart of the city guarantees easy access to major attractions, museums, restaurants, theaters, and other entertainment centers. On the other hand, they ensure peace and discretion. We provide personal service at the highest level!",
     "weProvide": "We Provide",
     "listItem1": "The strict center of Krakow, a historic district!",
     "listItem2": "Very good public transportation nearby",
@@ -47,6 +45,14 @@
       "author": "Catherine Williams",
       "text": "Mauris turpis nunc, blandit et, volutpat ullamcorper, mauris"
     }
+  },
+
+  "invitationTxt": {
+    "description": "If you are planning a romantic weekend getaway, a longer tourist stay, or a business visit in Krakow, our private apartments are an ideal choice for you. Their convenient location in the very heart of the city guarantees easy access to major attractions, museums, restaurants, theaters, and other entertainment centers. On the other hand, they ensure peace and discretion. We provide personal service at the highest level!"
+  },
+
+  "headerTxt" : {
+    "header": "Luxury apartments in the heart of Krakow"
   },
 
   "apartment1": {

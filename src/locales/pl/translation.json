@@ -16,8 +16,6 @@
   },
 
   "homePageText": {
-    "title": "Luksusowe apartamenty w sercu Krakowa",
-    "description": "Jeśli planują Państwo romantyczny weekend we dwoje, dłuższy pobyt turystyczny czy wizytę biznesową w Krakowie, nasze prywatne apartamenty są dla Państwa idealną propozycją. Ich dogodne usytuowanie w samym sercu miasta, z jednej strony gwarantuje łatwy dostęp do najważniejszych zabytków, muzeów, restauracji, teatrów i innych centrów rozrywki. Z drugiej zaś strony, zapewnia spokój i dyskrecję. Zapewniamy osobisty serwis na najwyższym poziomie!",
     "weProvide": "Zapewniamy",
     "listItem1": "Ścisłe centrum Krakowa, historyczna dzielnica!",
     "listItem2": "Bardzo dobra komunikacja miejska w pobliżu",
@@ -44,6 +42,14 @@
       "author": "Katarzyna Kowalczyk",
       "text": "Mauris turpis nunc, blandit et, volutpat ullamcorper, mauris"
     }
+  },
+
+  "invitationTxt": {
+    "description": "Jeśli planują Państwo romantyczny weekend we dwoje, dłuższy pobyt turystyczny czy wizytę biznesową w Krakowie, nasze prywatne apartamenty są dla Państwa idealną propozycją. Ich dogodne usytuowanie w samym sercu miasta, z jednej strony gwarantuje łatwy dostęp do najważniejszych zabytków, muzeów, restauracji, teatrów i innych centrów rozrywki. Z drugiej zaś strony, zapewnia spokój i dyskrecję. Zapewniamy osobisty serwis na najwyższym poziomie!"
+  },
+
+  "headerTxt" : {
+    "header": "Luksusowe apartamenty w sercu Krakowa"
   },
 
   "apartment1": {

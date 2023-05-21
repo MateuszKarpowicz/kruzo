@@ -19,10 +19,18 @@ const HomePage = () => {
         <Layout>
             <div className="content-container">
                     <div className='content-container_up'>
+                        <div className="header-container">
                         <HeaderTxt />
+                        </div>
+                        <div className="apartment-card-block">
+                            <div className="apartment-card-block-left-side">
                         <InvitationTxt />
                         <HomePageText />
+                        </div>
+                            <div className="apartment-card-block-right-side">
                         <BootstrapSlider />
+                            </div>
+                    </div>
                     </div>
                     <div className='content-container_mid'>
                         <Highlights/>
