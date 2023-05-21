@@ -16,5 +16,17 @@
 .reviews-header{
     display: flex;
     justify-content: center;
-    margin-top: 7px;
+    margin-top: 30px;
 }
+@media screen and (max-width: 1440px){
+  .reviews-header{
+    font-size: 2em;
+    padding-top: 10px;
+  }
+  .review-container{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+  }
+    
+  }
+  

@@ -42,13 +42,6 @@ const BootstrapReviewCarusel = () => {
                             </Carousel.Item>
                         ))}
                     </Carousel>
-                    <Row>
-                        {images.map((image, index) => (
-                            <Col md={6} key={index}>
-                                <img className="img-fluid mb-4" src={image} alt={`Review image ${index + 1}`} />
-                            </Col>
-                        ))}
-                    </Row>
                 </Col>
             </Row>
         </div>
