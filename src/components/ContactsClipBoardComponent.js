@@ -1,8 +1,11 @@
 import React from 'react';
 import useClipboard from "./useCopyToCliboard";
+import {useTranslation} from "react-i18next";
 
-const ContactsClipBoardComponent = ({ t }) => {
+const ContactsClipBoardComponent = () => {
     const copyToClipboard = useClipboard();
+    const { t } = useTranslation();
+
 
     return (
         <div>

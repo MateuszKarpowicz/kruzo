@@ -4,8 +4,10 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import { useTranslation } from 'react-i18next';
 
-const LeafletMap = ({ t, handleGetDirectionsClick }) => {
+
+const LeafletMap = ({ handleGetDirectionsClick }) => {
     const DefaultIcon = L.icon({
         iconUrl: icon,
         shadowUrl: iconShadow,
@@ -15,6 +17,9 @@ const LeafletMap = ({ t, handleGetDirectionsClick }) => {
     L.Marker.prototype.options.icon = DefaultIcon;
 
     const position = [52.22977, 21.01178];
+
+    const { t } = useTranslation();
+
 
     return (
         <div className="contact-map-section">

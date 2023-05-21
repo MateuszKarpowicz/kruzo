@@ -1,7 +1,10 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
+import {useTranslation} from "react-i18next";
 
-const BootstrapMailToForm = ({ t }) => {
+const BootstrapMailToForm = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="contact-form-section">
             <h2 className="column-title">{t('contactPage.formTitle')}</h2>
