@@ -84,12 +84,17 @@
   "togetherPage":{
     "description" : "Nasze nowoczesne apartamenty znajdują się na drugim piętrze historycznej, nowo odrestaurowanej kamienicy w sercu Krakowa. Doskonała lokalizacja. 2-5 minut piechotą do Rynku Glównego, Wawelu, Wisły. Blisko Dworca Głównego PKP, dworca autobusowego, komunikacji miejskiej co pozwala na wygodne zwiedzanie miasta."
   },
-
   "apartmentCard": {
     "title": "Crusoe Kraków",
-    "titlePS" : "Urządzony w nowoczesnym stylu z dużą dbałością o detale. W pełni wyposażony.",
-    "features": "Nasze nowoczesne, dwupokojowe mieszkanie apartamentowe znajduje się na drugim piętrze historycznej, nowo odrestaurowanej kamienicy w sercu Krakowa. Apartament składa się z przechodniego salonu z aneksem kuchennym, osobnej sypialni i łazienki z dużym prysznicem, bidetem i deszczownica.",
-    "description" : "Apartament składa się z przechodniego salonu z aneksem kuchennym, osobnej sypialni i luksusowo urządzonej łazienki z dużym prysznicem i deszczownicą. Nowoczesny, luksusowy wystrój łączy się z pięknem XIX-wiecznej cegły, którą skrywały stare tynki. Uwagę przykuje także ozdobna podłoga, która klimatem pasuje do historycznego miejsca. W cenę pobytu wliczone jest pyszne śniadanie w uroczej kawiarence Bon Jour Cava, znajdującej się w sąsiedztwie apartamentu."
-
+    "titlePS" : "Furnished in modern style with great attention to detail. Fully equipped.",
+    "feature1": "Lokalizacja na drugim piętrze odrestaurowanej, XIX-wiecznej kamienicy.",
+    "feature2": "Nowoczesny, dwupokojowy apartament z przechodnim salonem z aneksem kuchennym.",
+    "feature3": "Osobna, komfortowa sypialnia.",
+    "feature4": "Luksusowo urządzona łazienka wyposażona w duży prysznic, bidet i deszczownicę.",
+    "feature5": "Zachowane, historyczne elementy, takie jak XIX-wieczna cegła i oryginalne tynki.",
+    "feature6": "Stylizowana, ozdobna podłoga dodająca charakteru.",
+    "feature7": "Pyszne śniadanie w kawiarence Bon Jour Cava, wliczone w cenę pobytu."
   }
 }
+
+
