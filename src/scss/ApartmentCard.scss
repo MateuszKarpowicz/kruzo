@@ -1,0 +1,59 @@
+.apartment-card {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+    padding-right: 30px;
+
+  .apartment-card-title {
+    padding: 10px;
+  }
+
+  .apartment-card-content {
+    display: flex;
+    flex-direction: column;
+
+    .apartment-card-content-up {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+
+
+      .apartment-card-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 5px solid white;
+
+        img {
+          max-width: 50%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .apartment-card-features-txt {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+      }
+    }
+
+    .apartment-card-content-down {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+
+      .apartment-card-content-highlight{
+        display:flex;
+
+      }
+
+      .apartment-card-content-description {
+        flex: 1;
+      }
+    }
+  }
+}

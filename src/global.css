@@ -246,11 +246,12 @@ body {
     width: 100%;
     object-fit: fill;
 }
-
 .content-wrapper {
     flex-grow: 1;
-    width: 100%;
+    padding: 20px;
+    overflow: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: darkgray;
 }
