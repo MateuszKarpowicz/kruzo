@@ -7,7 +7,7 @@ const HomePageText = () => {
 
     return (
         
-            <div className="text-container">
+            <div className="home-text-container">
                 
                 <h2>{t('homePageText.weProvide')}</h2>
                 <ul>

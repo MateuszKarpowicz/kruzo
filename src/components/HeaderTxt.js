@@ -7,7 +7,7 @@ const HeaderTxt = () => {
 
     return (
         <div className="header-container">
-            <div className="header-container__text">
+            <div className="header-container-text">
                 <h1>{t('headerTxt.header')}</h1>
             </div>
         </div>
