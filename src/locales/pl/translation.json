@@ -82,5 +82,19 @@
     "description":"Poznaj świat CRUSOE. Największym luksusem jest podróżować, pozostając szczęśliwym."
   },
   "togetherPage":{
-    "description" : "Nasze nowoczesne apartamenty znajdują się na drugim piętrze historycznej, nowo odrestaurowanej kamienicy w sercu Krakowa. Doskonała lokalizacja. 2-5 minut piechotą do Rynku Glównego, Wawelu, Wisły. Blisko Dworca Głównego PKP, dworca autobusowego, komunikacji miejskiej co pozwala na wygodne zwiedzanie miasta." }
+    "description" : "Nasze nowoczesne apartamenty znajdują się na drugim piętrze historycznej, nowo odrestaurowanej kamienicy w sercu Krakowa. Doskonała lokalizacja. 2-5 minut piechotą do Rynku Glównego, Wawelu, Wisły. Blisko Dworca Głównego PKP, dworca autobusowego, komunikacji miejskiej co pozwala na wygodne zwiedzanie miasta."
+  },
+  "apartmentCard": {
+    "title": "Crusoe Kraków",
+    "titlePS" : "Furnished in modern style with great attention to detail. Fully equipped.",
+    "feature1": "Lokalizacja na drugim piętrze odrestaurowanej, XIX-wiecznej kamienicy.",
+    "feature2": "Nowoczesny, dwupokojowy apartament z przechodnim salonem z aneksem kuchennym.",
+    "feature3": "Osobna, komfortowa sypialnia.",
+    "feature4": "Luksusowo urządzona łazienka wyposażona w duży prysznic, bidet i deszczownicę.",
+    "feature5": "Zachowane, historyczne elementy, takie jak XIX-wieczna cegła i oryginalne tynki.",
+    "feature6": "Stylizowana, ozdobna podłoga dodająca charakteru.",
+    "feature7": "Pyszne śniadanie w kawiarence Bon Jour Cava, wliczone w cenę pobytu."
+  }
 }
+
+

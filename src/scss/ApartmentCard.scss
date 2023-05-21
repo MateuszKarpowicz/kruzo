@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Nineteenth';
+  src: url('../fonts/Nineteenth.woff2') format('woff2'),
+  url('../fonts/Nineteenth.woff') format('woff');
+}
+
+.apartment-card {
+  font-family: Nineteenth;
+  background: linear-gradient(0.25turn, #B3803E, #0D0B0B);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+
+  .apartment-card-title {
+    padding: 10px;
+    h3{
+      font-size: 2.5em;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    }
+    p {
+      font-size: 1.5em;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .apartment-card-content {
+    display: flex;
+    flex-direction: column;
+
+    .apartment-card-content-up {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+
+
+      .apartment-card-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          max-width: 50%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .apartment-card-features-txt {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        p{
+            font-size: 1em;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+
+    .apartment-card-content-down {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex: 1;
+      justify-content: space-evenly;
+
+
+      .apartment-card-content-highlight{
+        display:flex;
+        width: 100%;
+        height: 100px;
+
+      }
+
+      .apartment-card-graphic{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #0B0B0B;
+        img{
+          max-width: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+
+      }
+    }
+  }
+

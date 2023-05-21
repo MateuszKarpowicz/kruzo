@@ -246,11 +246,11 @@ body {
     width: 100%;
     object-fit: fill;
 }
-
 .content-wrapper {
     flex-grow: 1;
-    width: 100%;
+    overflow: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: darkgray;
 }
@@ -559,41 +559,44 @@ body {
     }
     .navbar-background-container{
         height: 100px;
+        z-index: 2;
     }
     .pages-buttons-container {
-        height: auto;
         padding: 0;
-        background: none;
         width: 100%;
         transform: translateY(-100%);
-        right: 0;
+        left: 0;
+        margin: 0;
         top: 0;
+        right: 0;
+        border-radius: 0;
+        height: 200px;
+
+
 
     }
 
     .pages-buttons-container.open {
         transform: translateY(0%);
+        z-index: 1;
     }
 
     .pages-buttons {
-        flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-left: 60px;
-    background: gray
+        padding-top: 120px;
     }
 
     .page-button,
     .nav-link,
     .nav-link-book,
     .page-button-book {
-        width: 150px;
+        width: 60px;
         height: 20px;
-        font-size: 15px;
-
-
-
+        font-size: 10px;
         justify-content: center;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .surfer-head {
