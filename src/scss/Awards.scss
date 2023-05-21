@@ -1,56 +1,61 @@
-.awards-container{
-  width:100%;
-  height: 600px;
-}
-.awards-icons{
-  position: absolute;
-  display: flex;
-  justify-content: space-evenly;
-  height: 600px;
+.awards-container {
   width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .awards-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+  
+  .awards-booking,
+  .awards-trip {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  }
+  
+  @media screen and (max-width: 1170px) {
+  .awards-container {
+  margin: 50px 0;
+  height: 400px;
+  }
+  
+  .awards-icons {
+  height: 100%;
+  .awards-booking,
+.awards-trip {
+  height: 100%;
+  width: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .awards-booking{
-    height: 575px;
-    width: 575px;
-    background-size: cover;
-  }
-  .awards-trip{
-    height: 575px;
-    width: 575px;
-    background-size: cover;
-  }
-}
-@media screen and (max-width: 1170px){
-  .awards-container{
-    margin: 50px 0;
-    height: 400px;
-  }
-  .awards-icons{
-    height: 400px;
-  .awards-booking{
-    height: 100%;
-    width: 50%;
-  }
-  .awards-trip{
-    height: 100%;
-    width: 50%;
-  }
 }
 }
-@media screen and (max-width: 700px){
-  .awards-container{
-    width:100%;
-    height: 200px;
-  }
-  .awards-icons{
-    height: 200px;
-  .awards-booking{
-    height: 100%;
-    width: 50%;
-  }
-  .awards-trip{
-    height: 100%;
-    width: 50%;
-  }
+
+@media screen and (max-width: 700px) {
+.awards-container {
+height: 300px;
+}
+
+.awards-icons {
+height: 100%;
+.awards-booking,
+.awards-trip {
+  height: 100%;
+  width: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 }
 }
