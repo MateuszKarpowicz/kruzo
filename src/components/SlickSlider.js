@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import '../scss/GalleryPage.scss';
 
 const SlickSlider = ({ isOpen, closeSlider, images, selectedImage }) => {
     if (!isOpen) {

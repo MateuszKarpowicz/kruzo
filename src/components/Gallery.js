@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SlickSlider from '../components/SlickSlider';
+import '../scss/GalleryPage.scss';
 
 const Gallery = () => {
     const [images, setImages] = useState([]);
