@@ -63,8 +63,18 @@ flex-direction: column-reverse;
   }
 }
 .content-container_bottom{
-  height: 110px;
-  background-color: black;
+  height: 130px;
   background-image: url(../assets/review/review_bg.png);
 background-size: cover;
 }
+.content-container_bottom{
+  margin-top: -20px;
+  height: 150px;
+}
+@media screen and (max-width: 1440px){
+  .content-container_bottom{
+    margin: -10px 0;
+    height: 150px;
+    
+  }
+  }
