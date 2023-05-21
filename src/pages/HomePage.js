@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from "../components/Layout";
-import HomePageText from '../components/HomePageTxt';
+import HomePageText from '../components/WeProvideTxt';
 import '../global.css';
 import './HomePage.scss'
 import BootstrapSlider from '../components/BootstrapSlider';
@@ -10,6 +10,8 @@ import Awards from '../components/Awards';
 import RoomAdminWidget from '../components/RoomAdminWidget';
 import Together from '../components/Together';
 import BootstrapReviewCarusel from '../components/BootstrapReviewCarusel';
+import HeaderTxt  from "../components/HeaderTxt";
+import InvitationTxt from "../components/InvitationTxt";
 
 
 const HomePage = () => {
@@ -17,6 +19,8 @@ const HomePage = () => {
         <Layout>
             <div className="content-container">
                     <div className='content-container_up'>
+                        <HeaderTxt />
+                        <InvitationTxt />
                         <HomePageText />
                         <BootstrapSlider />
                     </div>

@@ -3,12 +3,11 @@
   src: url('../fonts/Nineteenth.woff2') format('woff2'),
   url('../fonts/Nineteenth.woff') format('woff');
 }
-.text-container{
+.home-text-container{
   font-family: Nineteenth;
   color: white;
 
   h2{
-    text-align: center;
     font-size: 3.5em;
   }
   ul{
@@ -17,7 +16,7 @@
   }
 }
 @media screen and (max-width: 1170px){
-  .text-container{
+  .home-text-container {
     h2{
       font-size:2.5em;
     }

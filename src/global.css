@@ -509,3 +509,64 @@ body {
     cursor: pointer;
     filter: brightness(0);
 }
+
+@media screen and (max-width: 768px) {
+    .navbar-wrapper{
+        height: 70px;
+    }
+    .navbar-logo-container{
+        height: 100px;
+        width: 165px;
+    }
+    .surfer-clicker-img {
+        width: 185px;
+        height: 135px;
+    }
+    .navbar-background-container{
+        height: 100px;
+    }
+    .pages-buttons-container {
+        height: auto;
+        padding: 0;
+        background: none;
+        width: 100%;
+        transform: translateY(-100%);
+        right: 0;
+        top: 0;
+
+    }
+
+    .pages-buttons-container.open {
+        transform: translateY(0%);
+    }
+
+    .pages-buttons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 60px;
+    background: gray
+    }
+
+    .page-button,
+    .nav-link,
+    .nav-link-book,
+    .page-button-book {
+        width: 150px;
+        height: 20px;
+        font-size: 15px;
+
+
+
+        justify-content: center;
+    }
+
+    .surfer-head {
+        display: none;
+    }
+    .navbar-right-container {
+        display: none;
+    }
+
+}
+
