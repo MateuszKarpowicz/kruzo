@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import "../scss/Together.scss"
+import InstagramWidget from "./InstagramWidget";
 
 const Together = () => {
   const { t } = useTranslation();
@@ -9,13 +10,11 @@ const Together = () => {
   <div className="together-container">
 
     <div className="together-text_container">
-      <h3>{t('togetherPage.title')}</h3>
       <p>{t('togetherPage.description')}</p>
-      <p>{t('togetherPage.website')}</p>
     </div>
 
     <div className="together-photo_container">
-
+        <InstagramWidget />
     </div>
   </div>
   );

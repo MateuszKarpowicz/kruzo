@@ -1,4 +1,5 @@
 import React from 'react';
+import "../scss/Together.scss"
 
 const InstagramWidget = () => {
     const instagramUrl = 'https://www.instagram.com/p/BrsMB3cnTYw/embed';
@@ -9,7 +10,7 @@ const InstagramWidget = () => {
                 title="Instagram Post"
                 src={instagramUrl}
                 width="100%"
-                height="750"
+                height="100%"
                 frameBorder="0"
                 scrolling="no"
                 allowTransparency="true"
@@ -18,5 +19,6 @@ const InstagramWidget = () => {
         </div>
     );
 };
+
 
 export default InstagramWidget;
