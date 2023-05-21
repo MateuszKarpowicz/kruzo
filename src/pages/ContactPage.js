@@ -11,9 +11,13 @@ const ContactPage = () => {
     return (
         <Layout>
             <div className="contact-page-container">
+                <div className='contact-page-map_container'>
                 <LefletMap />
+                </div>
+                <div className='contact-page-info'>
                 <ContactsClipBoardComponent />
                 <BootstrapMailToForm />
+                </div>
             </div>
         </Layout>
     );

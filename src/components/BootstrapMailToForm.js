@@ -22,9 +22,10 @@ const BootstrapMailToForm = () => {
                 <Form.Group controlId="message">
                     <Form.Label>{t('contactPage.messageLabel')}</Form.Label>
                     <Form.Control as="textarea" rows={3} required />
+                    <Button type="submit" className="custom-button">{t('contactPage.submitButton')}</Button>
                 </Form.Group>
 
-                <Button type="submit" className="custom-button">{t('contactPage.submitButton')}</Button>
+                
             </Form>
         </div>
     );

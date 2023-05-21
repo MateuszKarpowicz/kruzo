@@ -602,6 +602,9 @@ body {
     .navbar-right-container {
         display: none;
     }
+} .leafleat-container{
+    position: relative;
+   height: 100vh;
+  }
 
-}
 
