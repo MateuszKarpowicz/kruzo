@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Nineteenth';
+  src: url('../fonts/Nineteenth.woff2') format('woff2'),
+  url('../fonts/Nineteenth.woff') format('woff');
+}
+.contact-page-map_container{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/contactPage/lower_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 700px) {
+  .contact-page-map_container{
+    height: 70vh;
+    padding: 60px 0 0 0;
+    background-repeat: repeat;
+  }
+}
+
+.contact-page-container{
+  height:900px;
+  width: 100%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: space-around;
+  align-items: center;
+  background: linear-gradient(#966D37, #201A13) !important;
+  color:white;
+  
+}
+@media screen and (max-width: 700px) {
+  .contact-page-container{
+    flex-direction: column;
+    height: 1100px;
+  }
+}
+.contact-page-info{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../assets/contactPage/upper_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: Nineteenth;
+  color: white;
+  font-size: 1em;
+  text-shadow: 2px 2px 4px rgba(244, 241, 241, 0.2); /* This will create a shadow effect */
+}
+@media screen and (max-width: 700px) {
+  .contact-page-info{
+    height: 500px;
+    width:80%;
+    font-size: 0.8em;
+    background-image: none;
+    text-align: center;
+    line-height: 20px;
+    flex-direction: column;
+  }
+}
+
+  .form-control{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+.contact-map-section{
+  height:500px;
+  width:50%;
+  font-family: Nineteenth;
+  color: white;
+  font-size: 1em;
+  text-shadow: 2px 2px 4px rgba(244, 241, 241, 0.5);
+  .custom-button{
+    font-family: Nineteenth;
+    color: white;
+    font-size: 1em;
+    margin-top:10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 35px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 150px;
+  }
+  
+  .custom-button:hover {
+    background-color: #f7fafa;
+  }
+  
+  .custom-button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+  .map-wrapper{
+    height:400px;
+  width:100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-map-section{
+    height:300px;
+  width:80%;
+  .custom-button{
+    width: 100px;
+
+    }
+
+  }
+}
+  
