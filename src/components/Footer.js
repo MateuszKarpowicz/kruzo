@@ -36,7 +36,7 @@ function Footer() {
             <div className="footer-container">
                 <div className="footer-friends-container">
                     <div className="footer-friends-cava">
-                        <img src={cavaFriends} alt="Cava Friends" />
+                        <img className="footer-friends-cava-img" src={cavaFriends} alt="Cava Friends" />
                     </div>
                     <div className="footer-friends-anioly">
                         <img className="footer-friends-anioly-img" src={aniolyFriends} alt="Anioly Friends" />

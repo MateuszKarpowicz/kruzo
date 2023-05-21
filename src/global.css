@@ -282,6 +282,7 @@ body {
     font-family: Nineteenth, sans-serif;
     flex-direction: column;
     position: relative;
+
 }
 
 .footer-friends-container {
@@ -298,7 +299,11 @@ body {
     align-items: center;
     color: #FFFFFF;
 }
-
+@media screen and (max-width: 850px){
+.footer-friends-container {
+    width: 100%;
+}
+}
 .footer-friends-cava,
 .footer-friends-anioly,
 .footer-friends-nautica {
@@ -306,14 +311,18 @@ body {
     text-align: center;
 
 }
-
 .footer-friends-cava-img,
 .footer-friends-anioly-img,
 .footer-friends-nautica-img {
     max-width: 100%;
     height: auto;
-
-
+}
+@media screen and (max-width: 850px){
+    .footer-friends-cava-img,
+.footer-friends-anioly-img,
+.footer-friends-nautica-img {
+    max-width: 70px;
+}
 }
 
 .footer-bandoc-pillow {
@@ -326,9 +335,17 @@ body {
 
 .footer-bandoc-pillow-img {
     height: 100%;
-    width: 100%;
     object-fit: contain;
 }
+@media screen and (max-width: 850px){
+    .footer-bandoc-pillow-img {
+        position: absolute;
+        height: 50%;
+        left: 150px;
+        object-fit: contain;
+    }
+}
+
 
 .footer-bandoc-logo {
     top: 0;
@@ -344,6 +361,13 @@ body {
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+@media screen and (max-width: 850px){
+    .footer-bandoc-logo-img {
+        height: 50%;
+        width: 150%;
+        object-fit: contain;
+    }
 }
 
 
