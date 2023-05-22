@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Image from '../assets/apartment/Image1.jpg'
+import Image from '../assets/apartment/image1.webp'
 import HighlightsApartmentCard from "./HighlightsApartmentCard";
 import ApartmentCardGraphic from "../assets/apartmentcard/apartments-card-texture-down.png";
 

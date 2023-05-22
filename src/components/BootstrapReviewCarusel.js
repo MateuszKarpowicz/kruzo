@@ -4,8 +4,8 @@ import { Carousel, Row, Col } from 'react-bootstrap';
 import InstagramWidget from './InstagramWidget';
 import '../scss/BootstrapReviewCarusel.scss';
 
-import image1 from '../assets/apartment/Image1.jpg';
-import image2 from '../assets/apartment/Image2.jpg';
+import image1 from '../assets/apartment/image1.webp';
+import image2 from '../assets/apartment/image2.webp';
 
 const BootstrapReviewCarusel = () => {
     const { t } = useTranslation();

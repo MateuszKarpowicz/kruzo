@@ -11,7 +11,7 @@ const Gallery = () => {
         const importImages = async () => {
             const importedImages = [];
             for (let i = 1; i <= 15; i++) {
-                const image = await import(`../assets/apartment/Image${i}.jpg`);
+                const image = await import(`../assets/apartment/image${i}.webp`);
                 importedImages.push(image.default);
             }
             setImages(importedImages);
