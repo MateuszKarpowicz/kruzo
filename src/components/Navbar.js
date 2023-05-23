@@ -74,7 +74,8 @@ return (
                     <img className="surfer-clicker-img" src={surferClicker} alt="surfer-clicker" onClick={toggleMenu} />
                 </div>
                 <div className={`pages-buttons-container ${isMenuOpen ? 'open' : ''}`}>
-                <ul className="pages-buttons">
+
+                    <ul className="pages-buttons">
                     <li className="page-button">
                         <NavLink to="/" exact activeClassName="nav-link active" className="nav-link">
                             {t('CRUSOE')}

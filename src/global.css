@@ -166,7 +166,6 @@ body {
     margin-right: 50px;
     padding-left: 280px;
     padding-right: 150px;
-    position: absolute;
     top: 40px;
     left: 0;
     background: gray;
@@ -189,8 +188,8 @@ body {
 }
 
 
-.page-button,
-.nav-link{
+.page-button
+{
     font-size: 20px;
     color: #FFFFFF;
     text-align: center;
@@ -204,7 +203,6 @@ body {
     border-radius: 35px;
     opacity: 1;
 }
-.nav-link-book,
 .page-button-book {
     text-align: center;
     font-size: 20px;
@@ -222,6 +220,11 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+.nav-link-book {
+    text-decoration: none !important;
+    color: #0B0B0B !important;
+}
+
 .page-button:hover {
     transform: scale(1.1);
     color: gold;
@@ -231,6 +234,7 @@ body {
     transform: scale(1.1);
     background: darkgoldenrod 0% 0% no-repeat padding-box;
 }
+
 
 .surfer-head {
     height: 130px;
@@ -544,6 +548,7 @@ body {
     filter: brightness(0);
 }
 
+
 @media screen and (max-width: 768px) {
     .navbar-wrapper{
         height: 70px;
@@ -551,6 +556,7 @@ body {
     .navbar-logo-container{
         height: 100px;
         width: 165px;
+        z-index: 4;
     }
     .surfer-clicker-img {
         width: 185px;
@@ -562,47 +568,67 @@ body {
     }
     .pages-buttons-container {
         padding: 0;
-        width: 100%;
-        transform: translateY(-100%);
-        left: 0;
-        margin: 0;
         top: 0;
         right: 0;
         border-radius: 0;
-        height: 200px;
-
-
-
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     .pages-buttons-container.open {
-        transform: translateY(0%);
-        z-index: 1;
+        z-index: 3;
     }
+
+
 
     .pages-buttons {
-        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         width: 100%;
-        padding-top: 120px;
+        margin: 0;
+        padding-left: 150px;
+
+
     }
 
+
+
+
     .page-button,
-    .nav-link,
-    .nav-link-book,
     .page-button-book {
-        width: 60px;
+        width: 80px;
         height: 20px;
         font-size: 10px;
         justify-content: center;
-        padding-left: 5px;
-        padding-right: 5px;
+        transform: rotate(-49deg);
+        margin: auto;
+
+    }
+
+    .page-button .nav-link  {
+        width: 60px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-button-book .nav-link-book {
+        width: 60px;
+        height: 20px;
     }
 
     .surfer-head {
         display: none;
     }
     .navbar-right-container {
-        display: none;
+        top: 85px;
+        transform: scale(0.6);
+        right: -100px;
+
+
     }
 } .leafleat-container{
     position: relative;
