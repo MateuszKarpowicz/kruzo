@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import logoNavbar from '../assets/navbar/logo-navbar.png'
@@ -18,15 +18,21 @@ import surferClicker from '../assets/navbar/surfer-clikker.png'
 function Navbar() {
     const { t, i18n } = useTranslation();
     const [language, setLanguage] = useState('pl');
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(localStorage.getItem("isMenuOpen") === "true" || false);
+
+    useEffect(() => {
+        localStorage.setItem("isMenuOpen", isMenuOpen);
+    }, [isMenuOpen]);
 
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang);
         setLanguage(lang);
     }
-    const toggleMenu = () => {
+    const handleMenuClick = () => {
         setIsMenuOpen(!isMenuOpen);
     }
+
+
 
     const handleButtonInsta = () => {
         window.open("https://www.instagram.com/crusoe_travel/", "_blank");    };
@@ -71,7 +77,7 @@ return (
                 </div>
                 <div className="navbar-logo-container" >
                 <img className="navbar-logo-container-img" src={logoNavbar} alt="logo" />
-                    <img className="surfer-clicker-img" src={surferClicker} alt="surfer-clicker" onClick={toggleMenu} />
+                    <img className="surfer-clicker-img" src={surferClicker} alt="surfer-clicker" onClick={handleMenuClick} />
                 </div>
                 <div className={`pages-buttons-container ${isMenuOpen ? 'open' : ''}`}>
 
