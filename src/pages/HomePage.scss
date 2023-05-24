@@ -3,7 +3,7 @@
   height:100%;
 }
 .content-container_up{
-  margin-top: 30px;
+  padding: 30px 0;
   left: 0;
   right: 0;
   display: flex;
@@ -61,7 +61,7 @@ font-size: 0.5em;
   display: flex;
   flex-direction: column;
   width:100%;
-  height:1700px;
+  height:1300px;
   background: linear-gradient(#101010, #6D6D6D, #101010);
 }
 @media screen and (max-width: 850px){
@@ -69,6 +69,12 @@ font-size: 0.5em;
   height:1200px;
   }
 }
+@media screen and (max-width: 650px){
+  .content-container_lower{
+  height:1000px;
+  }
+}
+
 .content-container_bottom{
   height: 130px;
   background-image: url(../assets/review/review_bg.png);
