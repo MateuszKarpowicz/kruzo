@@ -27,21 +27,18 @@
   "reviews": {
     "header": "Co mówią nasi goście",
     "review1": {
-      "author": "Jan Kowalski",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "author": "Kasia K",
+      "text": "Świetna lokalizacja z widokiem na Wawel, gustownie i komfortowo urządzone, śniadania w uroczej kawiarence obok."
     },
     "review2": {
-      "author": "Anna Nowak",
-      "text": "Vestibulum ullamcorper mauris at ligula."
+      "author": "Łukasz",
+      "text": "Elegancki duży apartament w świetnej lokalizacji."
     },
     "review3": {
-      "author": "Piotr Wiśniewski",
-      "text": "Suspendisse potenti. In eleifend massa imperdiet augue."
-    },
-    "review4": {
-      "author": "Katarzyna Kowalczyk",
-      "text": "Mauris turpis nunc, blandit et, volutpat ullamcorper, mauris"
+      "author": "Angelica",
+      "text": "Sadze ze wlasciciele bardzo dnaja o jakosc. Oferuja w standardzie to czym 4-5 gwiazdkowe hotele sie legitymuja a nawet wiecej. Jest to miejsce gdzie zyczylabym sobie wrocic"
     }
+
   },
 
   "invitationTxt": {
@@ -86,7 +83,7 @@
   },
   "apartmentCard": {
     "title": "Crusoe Kraków",
-    "titlePS" : "Furnished in modern style with great attention to detail. Fully equipped.",
+    "titlePS" : "Umeblowane w nowoczesnym stylu z wielką dbałością o szczegóły. W pełni wyposażone.",
     "feature1": "Lokalizacja na drugim piętrze odrestaurowanej, XIX-wiecznej kamienicy.",
     "feature2": "Nowoczesny, dwupokojowy apartament z przechodnim salonem z aneksem kuchennym.",
     "feature3": "Osobna, komfortowa sypialnia.",

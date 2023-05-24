@@ -30,21 +30,18 @@
   "reviews": {
     "header": "What our guests say",
     "review1": {
-      "author": "John Smith",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "author": "Kasia Cz.",
+      "text": "Apartments Crusoe are fabulous, with stylish decor in historic building and same time modern with free Wi-Fi, very comfortable bed and yummy breakfast,right in the very heart of Krakow close to all attractions !!!"
     },
     "review2": {
-      "author": "Jane Doe",
-      "text": "Vestibulum ullamcorper mauris at ligula."
+      "author": "K.J. Galov",
+      "text": "I stayed here with my husband and we had a ton of fun. The apartment was clean and roomy. Great location, easy to get to Krakow's biggest attractions. We would definitely stay here again!!!"
     },
     "review3": {
-      "author": "Peter Johnson",
-      "text": "Suspendisse potenti. In eleifend massa imperdiet augue."
-    },
-    "review4": {
-      "author": "Catherine Williams",
-      "text": "Mauris turpis nunc, blandit et, volutpat ullamcorper, mauris"
+      "author": "Maggie",
+      "text": "Walking distance to everything! New renovated, comfy bed and in the bedroom historic brick wall. Such a great atmosphere there! This is Kraków feeling pure! If you need anything extra ask the owner! Rental car? Tips for best restaurants? He can do magic!"
     }
+
   },
 
   "invitationTxt": {
@@ -80,10 +77,23 @@
     "title":"Magnificence",
     "description":"The world with CRUSOE. The greatest luxury is travelling and staying happy."
   },
-  "togetherPage":{
-    "title":"Let's Do It Together",
-    "description":"Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
-    "website":"www.yourwebsite.com"
-  }
 
+
+  "togetherPage":{
+    "description" : "Our modern apartments are located on the second floor of a historic, newly renovated tenement house in the heart of Krakow. Excellent location. 2-5 minutes walk to the Main Market, Wawel, Vistula. Close to the Main Railway Station, bus station, public transport which allows for convenient city sightseeing."
+  },
+  "apartmentCard": {
+    "title": "Crusoe Krakow",
+    "titlePS" : "Furnished in modern style with great attention to detail. Fully equipped.",
+    "feature1": "Location on the second floor of a restored, 19th-century tenement house.",
+    "feature2": "Modern, two-room apartment with a walk-through living room with a kitchenette.",
+    "feature3": "Separate, comfortable bedroom.",
+    "feature4": "Luxuriously furnished bathroom equipped with a large shower, bidet, and rain shower.",
+    "feature5": "Preserved, historical elements, such as 19th-century brick and original plaster.",
+    "feature6": "Styled, ornamental floor adding character.",
+    "feature7": "Delicious breakfast at the Bon Jour Cava cafe, included in the price of stay."
+  }
 }
+
+
+
