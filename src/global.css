@@ -581,11 +581,13 @@ body {
 
     .pages-buttons-container.open {
         z-index: 3;
+
     }
 
 
 
     .pages-buttons {
+        position: absolute;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -597,8 +599,7 @@ body {
 
 
 
-    .page-button,
-    .page-button-book {
+    .page-button{
         width: 80px;
         height: 20px;
         font-size: 10px;
@@ -618,6 +619,28 @@ body {
     .page-button-book .nav-link-book {
         width: 60px;
         height: 20px;
+
+    }
+
+    .page-button-book {
+        color: #FFFFFF !important;
+        position: fixed;
+        top: 120px;
+        width: 75px;
+        height: 75px;
+        font-size: 15px;
+        justify-content: center;
+        left: 5px;
+        background-color: transparent;
+        background-image: url("./assets/navbar/button-book-background-mobile.png");
+        background-size: cover;
+        border-radius: 0;
+
+    }
+    .nav-link-book {
+        color: #FFFFFF !important;
+        margin-top: 40px;
+
     }
 
     .surfer-head {
@@ -629,9 +652,9 @@ body {
         transform-origin: right center;
         position: absolute;
         right: 0;
-
-
     }
+
+
 } .leafleat-container{
     position: relative;
    height: 100vh;

@@ -12,6 +12,7 @@ import mailNavbar from '../assets/navbar/mail-navbar.png'
 import plFlag from '../assets/navbar/pl-flag.png'
 import gbFlag from '../assets/navbar/gb-flag.png'
 import surferClicker from '../assets/navbar/surfer-clikker.png'
+import buttonBookBackgroundMobile from '../assets/navbar/button-book-background-mobile.png'
 
 
 
@@ -79,6 +80,7 @@ return (
                 <img className="navbar-logo-container-img" src={logoNavbar} alt="logo" />
                     <img className="surfer-clicker-img" src={surferClicker} alt="surfer-clicker" onClick={handleMenuClick} />
                 </div>
+
                 <div className={`pages-buttons-container ${isMenuOpen ? 'open' : ''}`}>
 
                     <ul className="pages-buttons">
@@ -102,14 +104,14 @@ return (
                             {t('CONTACT')}
                         </NavLink>
                     </li>
-                    <li className="page-button-book">
+                    <div className="page-button-book">
                         <NavLink to="/reservation" activeClassName="nav-link active-book" className="nav-link-book">
-                            {t('BOOK')}
+                            {t('BOOKING')}
                         </NavLink>
-                    </li>
-                    <li className="surfer-head">
+                    </div>
+                    <div className="surfer-head">
                         <img className="surfer-head-img" src={surferHead} alt="head" />
-                    </li>
+                    </div>
                 </ul>
                     </div>
                 </div>

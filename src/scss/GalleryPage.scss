@@ -1,5 +1,5 @@
 .gallery-content {
-  padding-top: 100px;
+  padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 700px) {
   .gallery-content {
-    padding-top: 50px;
+    padding-top: 110px;
     flex-direction: column;
   }
 }
