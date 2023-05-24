@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-
+import '../scss/RoomAdminWidget.scss'
 function BookingWidget() {
     const iframeRef = useRef(null);
 
