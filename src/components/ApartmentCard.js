@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image1 from '../assets/apartment/image6.webp';
 import Image2 from '../assets/apartment/image2.webp';
-import Image3 from '../assets/apartment/image13.webp';
-import Image4 from '../assets/apartment/image14.webp';
+import Image3 from '../assets/apartment/image7.webp';
+import Image4 from '../assets/apartment/image4.webp';
 import Image5 from '../assets/apartment/image5.webp';
 import ImageBig from '../assets/apartment/image1.webp'
 import HighlightsApartmentCard from "./HighlightsApartmentCard";

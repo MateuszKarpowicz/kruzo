@@ -164,17 +164,14 @@ height: 200px;
       img.apartment-card-small-image {
         flex-shrink: 0;
         width: 100%;
-
-
-
         object-fit: cover;
-        filter: brightness(70%);
+        filter: brightness(65%);
         transition: all 0.3s ease-in-out;
         height: 200px;
       }
         img.apartment-card-small-image:hover {
             filter: brightness(100%);
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
     }
 

@@ -10,7 +10,7 @@ const Gallery = () => {
     useEffect(() => {
         const importImages = async () => {
             const importedImages = [];
-            for (let i = 1; i <= 15; i++) {
+            for (let i = 1; i <= 12; i++) {
                 const image = await import(`../assets/apartment/image${i}.webp`);
                 importedImages.push(image.default);
             }

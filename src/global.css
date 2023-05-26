@@ -638,6 +638,10 @@ body {
         z-index: 999;
     }
 
+    .nav-link{
+        z-index: 99999;
+    }
+
     .page-button-book .nav-link-book {
         width: 60px;
         height: 20px;

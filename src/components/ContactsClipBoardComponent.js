@@ -20,13 +20,11 @@ const ContactsClipBoardComponent = () => {
             <div className="contact-details">
                 <div className="contact-detail" onClick={() => copyToClipboard('123-456-789')}>
                     <span className="contact-icon">📞</span>
-                    <span className="contact-text">123-456-789</span>
-                    <span className="copy-text">{t('contactPage.copy')}</span>
+                    <span className="contact-text">+48885398888</span>
                 </div>
                 <div className="contact-detail" onClick={() => copyToClipboard('email@example.com')}>
                     <span className="contact-icon">✉️</span>
-                    <span className="contact-text">email@example.com</span>
-                    <span className="copy-text">{t('contactPage.copy')}</span>
+                    <span className="contact-text">info@crusoe.info</span>
                 </div>
             </div>
         </div>
