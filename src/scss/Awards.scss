@@ -12,9 +12,9 @@
   width: 100%;
   max-width: 2000px;
   height: auto;
-  position: relative; /* Dodaj position: relative, aby można było stosować transformację */
-  transform: translateX(-100%); /* Przesuń elementy w dół poza widok */
-  transition: transform 1s ease-in-out; /* Dodaj animację transformacji */
+  position: relative; 
+  transform: translateX(-100%); 
+  transition: transform 1s ease-in-out; 
   
   .awards-booking,
   .awards-trip {
@@ -26,7 +26,7 @@
   }
   }
   .awards-icons.show {
-    transform: translateY(0%); /* Przywróć elementy do pozycji widocznej */
+    transform: translateY(0%); 
   }
   
   @media screen and (max-width: 1170px) {

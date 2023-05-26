@@ -69,3 +69,14 @@
     }
   }
 }
+.slick-slider .slick-list{
+  height:600px;
+}
+.slider-wrapper .gallery-slider{
+  height: 600px;
+}
+@media screen and (max-width: 700px) {
+  .slider-wrapper .gallery-slider{
+    height:200px;
+}
+}
