@@ -73,7 +73,7 @@ const ApartmentCard = () => {
                         <div className="apartment-card-slick-slide">
                         <Slider {...settings}>
                             {images.map((image, index) => (
-                                <div key={index}>
+                                <div className='key' key={index}>
                                     <img src={image} alt={`apartment ${index}`} className="apartment-card-small-image"/>
                                 </div>
                             ))}
