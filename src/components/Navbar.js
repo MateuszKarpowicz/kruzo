@@ -78,7 +78,12 @@ return (
                 </div>
                 <div className="navbar-logo-container" >
                 <img className="navbar-logo-container-img" src={logoNavbar} alt="logo" />
+                    <div className="surfer-clicker-container">
+
                     <img className="surfer-clicker-img" src={surferClicker} alt="surfer-clicker" onClick={handleMenuClick} />
+                    <div className="pointer-none" />
+                    </div>
+
                 </div>
 
                 <div className={`pages-buttons-container ${isMenuOpen ? 'open' : ''}`}>

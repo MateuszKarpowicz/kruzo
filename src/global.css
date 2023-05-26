@@ -204,6 +204,7 @@ body {
     box-shadow: 0px 8px 16px #351F09;
     border-radius: 35px;
     opacity: 1;
+    z-index: 99999;
 }
 .page-button-book {
     text-align: center;
@@ -552,22 +553,42 @@ body {
 
 
 @media screen and (max-width: 768px) {
-    .navbar-wrapper{
+    .navbar-wrapper {
         height: 70px;
     }
-    .navbar-logo-container{
+
+    .navbar-logo-container {
         height: 100px;
-        width: 165px;
+        width: 160px;
         z-index: 4;
     }
-    .surfer-clicker-img {
-        width: 185px;
+
+    .surfer-clicker-container {
+        position: relative;
+        width: 175px;
         height: 135px;
     }
-    .navbar-background-container{
+
+    .surfer-clicker-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pointer-none {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        pointer-events: none;
+        z-index: 5;
+    }
+
+    .navbar-background-container {
         height: 100px;
         z-index: 2;
     }
+
     .pages-buttons-container {
         padding: 0;
         top: 0;
@@ -585,7 +606,6 @@ body {
     }
 
 
-
     .pages-buttons {
         position: absolute;
         display: flex;
@@ -593,27 +613,29 @@ body {
         justify-content: center;
         width: 100%;
         margin: 0;
-        padding-left: 130px;
+        padding-left: 160px;
+        padding-right: 10px;
     }
 
 
-
-
-    .page-button{
+    .page-button {
+        position: relative;
         width: 80px;
         height: 20px;
         font-size: 10px;
         justify-content: center;
         transform: rotate(-49deg);
         margin: auto;
+        z-index: 9999;
 
     }
 
-    .page-button .nav-link  {
+    .page-button .nav-link {
         width: 60px;
         height: 20px;
         margin: 0;
         padding: 0;
+        z-index: 999;
     }
 
     .page-button-book .nav-link-book {
@@ -636,7 +658,9 @@ body {
         background-size: cover;
         border-radius: 0;
 
+
     }
+
     .nav-link-book {
         color: #FFFFFF !important;
         margin-top: 40px;
@@ -646,6 +670,7 @@ body {
     .surfer-head {
         display: none;
     }
+
     .navbar-right-container {
         top: 80px;
         transform: scale(0.5);
@@ -656,7 +681,9 @@ body {
     }
 
 
-} .leafleat-container{
+
+}
+    .leafleat-container{
     position: relative;
    height: 100vh;
   }
