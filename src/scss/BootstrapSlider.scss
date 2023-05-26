@@ -1,30 +1,32 @@
 .content-slider{
   position: relative;
-  width:400px !important;
+  width:500px !important;
   height: 400px !important;
   img{
   border: 5px solid white;
   border-radius:20px;
-  width:400px !important;
+  width:450px !important;
   height: 400px !important;
+
   }
 }
 @media screen and (max-width: 1170px){
   .content-slider{
-    width:220px !important;
+    width:260px !important;
     height: 220px !important;
+
     img{
-    width: 220px !important;
+    width: 260px !important;
     height: 220px !important;
     }
 }
 }
 @media screen and (max-width: 700px){
   .content-slider{
-    width: 200px !important;
+    width: 250px !important;
     height: 200px !important;
     img{
-    width: 200px !important;
+    width: 250px !important;
     height: 200px !important;
     }
 }

@@ -16,7 +16,7 @@ const BootstrapReviewCarusel = () => {
         text: t(`reviews.${id}.text`),
     });
 
-    const reviews = ['review1', 'review2', 'review3', 'review4'].map(review);
+    const reviews = ['review1', 'review2', 'review3'].map(review);
 
     const [images, setImages] = useState([]);
 
