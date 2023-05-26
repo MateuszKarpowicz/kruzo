@@ -14,27 +14,26 @@
   h2{
     font-size: 1.6em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
   }
+
   ul{
     font-size: 1.2em;
     line-height: 1em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
   }
+
   ul li::before {
     content: "";
     display: inline-block;
-
     background: var(--logo-url) no-repeat;
     width: 1em;
     height: 1em;
     background-size: 1em;
     margin-right: 0.5em;
     background-color: transparent !important;
-
   }
 }
+
 @media screen and (max-width: 1170px){
   .home-text-container {
     h2{

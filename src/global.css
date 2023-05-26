@@ -20,7 +20,6 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
 
 .navbar-wrapper {
@@ -28,6 +27,7 @@ body {
     top: 0;
     height: 170px;
 }
+
 .navbar-container {
     position: relative;
     font-family: Nineteenth, sans-serif;
@@ -78,8 +78,6 @@ body {
     width: 100%;
     height: 200px;
     z-index: 0;
-
-
 }
 
 .navbar-background-container-img {
@@ -114,8 +112,6 @@ body {
     height: 40px;
     position: absolute;
     margin-right: 10px;
-
-
 }
 
 .navbar-language-container img {
@@ -125,16 +121,12 @@ body {
     margin-right: 10px;
     cursor: pointer;
     filter: grayscale(100%);
-
-
 }
 
 .navbar-language-container img:hover
 {
     filter: grayscale(0%);
-
 }
-
 
 .navbar-social-links-buttons {
     display: flex;
@@ -150,7 +142,6 @@ body {
     padding-right: 30px;
     padding-left: 30px;
     cursor: pointer;
-
 }
 
 .navbar-social-links-insta:hover,
@@ -189,9 +180,7 @@ body {
     margin-right: 10px;
 }
 
-
-.page-button
-{
+.page-button {
     font-size: 20px;
     color: #FFFFFF;
     text-align: center;
@@ -206,6 +195,7 @@ body {
     opacity: 1;
     z-index: 99999;
 }
+
 .page-button-book {
     text-align: center;
     font-size: 20px;
@@ -238,14 +228,12 @@ body {
     background: darkgoldenrod 0% 0% no-repeat padding-box;
 }
 
-
 .surfer-head {
     height: 130px;
     width: 130px;
     position: absolute;
     right: -40px;
     background: none;
-
 }
 
 .surfer-head-img {
@@ -253,6 +241,7 @@ body {
     width: 100%;
     object-fit: fill;
 }
+
 .content-wrapper {
     flex-grow: 1;
     display: flex;
@@ -264,7 +253,6 @@ body {
 .test-block {
     width: 100%;
     height: 300px;
-
 }
 
 .footer-wrapper {
@@ -276,11 +264,14 @@ body {
     left: 0;
     right: 0;
 }
+
 @media screen and (max-width: 850px){
     .footer-wrapper {
     height:500px;
     }
-  }
+}
+
+
 .footer-container {
     display : flex;
     width: 100%;
@@ -288,7 +279,6 @@ body {
     font-family: Nineteenth, sans-serif;
     flex-direction: column;
     position: relative;
-
 }
 
 .footer-friends-container {
@@ -305,24 +295,27 @@ body {
     align-items: center;
     color: #FFFFFF;
 }
+
 @media screen and (max-width: 850px){
 .footer-friends-container {
     width: 100%;
 }
 }
+
 .footer-friends-cava,
 .footer-friends-anioly,
 .footer-friends-nautica {
     flex: 1;
     text-align: center;
-
 }
+
 .footer-friends-cava-img,
 .footer-friends-anioly-img,
 .footer-friends-nautica-img {
     max-width: 100%;
     height: auto;
 }
+
 @media screen and (max-width: 850px){
     .footer-friends-cava-img,
 .footer-friends-anioly-img,
@@ -343,6 +336,7 @@ body {
     height: 100%;
     object-fit: contain;
 }
+
 @media screen and (max-width: 850px){
     .footer-bandoc-pillow-img {
         position: absolute;
@@ -352,7 +346,6 @@ body {
     }
 }
 
-
 .footer-bandoc-logo {
     top: 0;
     right: 0;
@@ -360,7 +353,6 @@ body {
     width: 170px;
     height: 170px;
     z-index: 1;
-
 }
 
 .footer-bandoc-logo-img {
@@ -368,6 +360,7 @@ body {
     width: 100%;
     object-fit: contain;
 }
+
 @media screen and (max-width: 850px){
     .footer-bandoc-logo-img {
         height: 50%;
@@ -375,7 +368,6 @@ body {
         object-fit: contain;
     }
 }
-
 
 .footer-contact-container {
     height: 180px;
@@ -389,8 +381,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
+
 @media screen and (max-width: 850px){
     .footer-contact-container {
         height: 1000px;
@@ -410,7 +402,6 @@ body {
     width: 100%;
     position: absolute;
     z-index: 0;
-
 }
 
 .footer-texture-img {
@@ -442,7 +433,6 @@ body {
     flex-direction: row;
 }
 
-
 .footer-contact-phone,
 .footer-contact-mail {
     flex: 1;
@@ -451,6 +441,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .footer-contact-phone img,
 .footer-contact-mail img {
 
@@ -459,8 +450,8 @@ body {
     object-fit: fill;
     margin-right: 5px;
     margin-top: 3px;
-
 }
+
 .footer-social-links {
     flex: 1;
     display: flex;
@@ -468,8 +459,8 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 1;
-
 }
+
 .footer-social-links-text-box {
     display: flex;
     flex-direction: column;
@@ -477,6 +468,7 @@ body {
     width: fit-content;
     z-index: 1;
 }
+
 .footer-social-links img {
     height: 20px;
     width: 20px;
@@ -497,7 +489,6 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 1;
-
 }
 
 .apartments-logo-zakopane,
@@ -512,13 +503,11 @@ body {
 .footer-apartments-primosten:hover {
     transform: scale(1.1);
     filter: brightness(0);
-
 }
 
 .footer-apartments-zakopane:hover {
     transform: scale(1.1);
     filter: brightness(0);
-
 }
 
 .footer-apartments span,
@@ -530,11 +519,9 @@ body {
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
-
 .footer-social-links-insta,
 .footer-social-links-fb {
     transition: filter 0.3s ease;
-
 }
 
 .footer-social-links-insta:hover,
@@ -550,7 +537,6 @@ body {
     cursor: pointer;
     filter: brightness(0);
 }
-
 
 @media screen and (max-width: 768px) {
     .navbar-wrapper {
@@ -602,9 +588,7 @@ body {
 
     .pages-buttons-container.open {
         z-index: 3;
-
     }
-
 
     .pages-buttons {
         position: absolute;
@@ -617,7 +601,6 @@ body {
         padding-right: 10px;
     }
 
-
     .page-button {
         position: relative;
         width: 80px;
@@ -627,7 +610,6 @@ body {
         transform: rotate(-49deg);
         margin: auto;
         z-index: 9999;
-
     }
 
     .page-button .nav-link {
@@ -645,7 +627,6 @@ body {
     .page-button-book .nav-link-book {
         width: 60px;
         height: 20px;
-
     }
 
     .page-button-book {
@@ -661,14 +642,11 @@ body {
         background-image: url("./assets/navbar/button-book-background-mobile.png");
         background-size: cover;
         border-radius: 0;
-
-
     }
 
     .nav-link-book {
         color: #FFFFFF !important;
         margin-top: 40px;
-
     }
 
     .surfer-head {
@@ -683,8 +661,6 @@ body {
         right: 0;
         z-index: 50;
     }
-
-
 
 }
     .leafleat-container{
