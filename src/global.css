@@ -601,6 +601,8 @@ body {
         padding-right: 10px;
     }
 
+
+
     .page-button {
         position: relative;
         width: 80px;
@@ -610,6 +612,10 @@ body {
         transform: rotate(-49deg);
         margin: auto;
         z-index: 9999;
+    }
+
+    .page-button:hover{
+        transform: rotate(-49deg);
     }
 
     .page-button .nav-link {
@@ -627,6 +633,7 @@ body {
     .page-button-book .nav-link-book {
         width: 60px;
         height: 20px;
+
     }
 
     .page-button-book {
