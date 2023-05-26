@@ -12,7 +12,6 @@ import mailNavbar from '../assets/navbar/mail-navbar.png'
 import plFlag from '../assets/navbar/pl-flag.png'
 import gbFlag from '../assets/navbar/gb-flag.png'
 import surferClicker from '../assets/navbar/surfer-clikker.png'
-import buttonBookBackgroundMobile from '../assets/navbar/button-book-background-mobile.png'
 
 
 
@@ -49,6 +48,7 @@ function Navbar() {
     const handleButtonPhone = () => {
         window.location.href = "tel:+48885398888";
     }
+
 
 return (
         <nav className="navbar-wrapper">
@@ -96,22 +96,22 @@ return (
                     </li>
                     <li className="page-button">
                         <NavLink to="/apartments" activeClassName="nav-link active" className="nav-link">
-                            {t('APARTMENTS')}
+                            {t('navbar.APARTMENTS')}
                         </NavLink>
                     </li>
                     <li className="page-button">
                         <NavLink to="/gallery" activeClassName="nav-link active" className="nav-link">
-                            {t('GALLERY')}
+                            {t('navbar.GALLERY')}
                         </NavLink>
                     </li>
                     <li className="page-button">
                         <NavLink to="/contact" activeClassName="nav-link active" className="nav-link">
-                            {t('CONTACT')}
+                            {t('navbar.CONTACT')}
                         </NavLink>
                     </li>
                     <div className="page-button-book">
                         <NavLink to="/reservation" activeClassName="nav-link active-book" className="nav-link-book">
-                            {t('BOOKING')}
+                            {t('navbar.BOOK')}
                         </NavLink>
                     </div>
                     <div className="surfer-head">

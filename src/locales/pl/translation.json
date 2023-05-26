@@ -9,10 +9,10 @@
     "bandOfCreators": "BandOfCreators2023"
   },
   "navbar": {
-    "apartments": "Apartamenty",
-    "gallery": "Galeria",
-    "contact": "Kontakt",
-    "book": "Rezerwuj"
+    "APARTMENTS": "APARTAMENTY",
+    "GALLERY": "GALERIA",
+    "CONTACT": "KONTAKT",
+    "BOOK": "REZERWUJ"
   },
 
   "homePageText": {

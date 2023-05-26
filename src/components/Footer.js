@@ -10,7 +10,6 @@ import phoneNavbar from '../assets/navbar/phone-navbar.png'
 import mailNavbar from '../assets/navbar/mail-navbar.png'
 import footerTexture from '../assets/footer/footer-texture.png'
 import apartmentsLogo from '../assets/footer/apartments-logo.png'
-import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 
 function Footer() {

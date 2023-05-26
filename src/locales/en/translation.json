@@ -1,4 +1,10 @@
 {
+  "navbar": {
+    "APARTMENTS": "APARTMENTS",
+    "GALLERY": "GALLERY",
+    "CONTACT": "CONTACT",
+    "BOOK": "BOOKING"
+  },
 
   "footer": {
     "contact": "Contact",
@@ -11,12 +17,7 @@
 
 }
 ,
-  "navbar": {
-    "apartments": "Apartments",
-    "gallery": "Gallery",
-    "contact": "Contact",
-    "book": "Book"
-  },
+
 
   "homePageText": {
     "weProvide": "We Provide",
