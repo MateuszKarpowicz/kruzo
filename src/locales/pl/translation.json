@@ -17,11 +17,11 @@
 
   "homePageText": {
     "weProvide": "Zapewniamy",
-    "listItem1": "Ścisłe centrum Krakowa, historyczna dzielnica!",
-    "listItem2": "Bardzo dobra komunikacja miejska w pobliżu",
-    "listItem3": "3 minuty piechotą do Rynku Głównego",
-    "listItem4": "5 minut piechotą do Wawel",
-    "listItem5": "śniadanie w cenie"
+    "listItem2": "Ścisłe centrum Krakowa, historyczna dzielnica!",
+    "listItem3": "Bardzo dobra komunikacja miejska w pobliżu",
+    "listItem4": "3 minuty piechotą do Rynku Głównego",
+    "listItem5": "5 minut piechotą do Wawel",
+    "listItem1": "Pyszne śniadanie w okolicznej kawiarni BounjourCava"
   },
 
   "reviews": {
@@ -91,7 +91,14 @@
     "feature5": "Zachowane, historyczne elementy, takie jak XIX-wieczna cegła i oryginalne tynki.",
     "feature6": "Stylizowana, ozdobna podłoga dodająca charakteru.",
     "feature7": "Pyszne śniadanie w kawiarence Bon Jour Cava, wliczone w cenę pobytu."
-  }
+  },
+  "roomAdmin": {
+    "book" : "Zarezerwuj"
+
+  },
+  "Kontakt": "Kontakt",
+  "Media": "Media",
+  "Apartamenty": "Apartamenty"
 }
 
 

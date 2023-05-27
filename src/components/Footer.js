@@ -11,8 +11,10 @@ import mailNavbar from '../assets/navbar/mail-navbar.png'
 import footerTexture from '../assets/footer/footer-texture.png'
 import apartmentsLogo from '../assets/footer/apartments-logo.png'
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 function Footer() {
+    const { t } = useTranslation();
 
     const handleButtonInsta = () => {
         window.open("https://www.instagram.com/crusoe_travel/", "_blank");
@@ -57,7 +59,7 @@ function Footer() {
                     <div className="footer-contact">
                         <div className="footer-contact-text-box">
                             <div className="footer-contact-header">
-                                <span>Kontakt</span>
+                                <span>{t('Kontakt')}</span>
                             </div>
                             <div className="footer-contact-phone" onClick={handleButtonPhone}>
                                 <img src={phoneNavbar} alt="phone-navbar" />
@@ -73,7 +75,7 @@ function Footer() {
                     <div className="footer-social-links">
                         <div className="footer-social-links-text-box">
                         <div className="footer-social-links-header">
-                        <span>Media</span>
+                            <span>{t('Media')}</span>
                         </div>
                             <div className="footer-social-links-insta" onClick={handleButtonInsta}>
                                 <img src={instaNavbar} alt="insta-navbar" />
@@ -89,7 +91,7 @@ function Footer() {
                     </div>
                     <div className="footer-apartments">
                         <div className="footer-apartments-header">
-                        <span>Apartamenty</span>
+                            <span>{t('Apartamenty')}</span>
                         </div>
                         <div className="footer-apartments-zakopane">
                             <img className="apartments-logo-zakopane" src={apartmentsLogo} alt="apartments-logo" />

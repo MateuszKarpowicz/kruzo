@@ -18,7 +18,8 @@ const HomePage = () => {
     return (
         <Layout>
             <div className="content-container">
-                    <div className='content-container_up'>
+                <RoomAdminWidget/>
+                <div className='content-container_up'>
                         <div className="header-container">
                         <HeaderTxt />
                         </div>
@@ -37,7 +38,6 @@ const HomePage = () => {
                         <SloganCrusoe/>
                     </div>
                     <div className='content-container_lower'>
-                        <RoomAdminWidget/>
                         <Awards/>
                         <Together/>
                     </div>

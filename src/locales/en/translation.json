@@ -93,8 +93,16 @@
     "feature5": "Preserved, historical elements, such as 19th-century brick and original plaster.",
     "feature6": "Styled, ornamental floor adding character.",
     "feature7": "Delicious breakfast at the Bon Jour Cava cafe, included in the price of stay."
-  }
+  },
+  "roomAdmin": {
+    "book" : "Book a Room"
+  },
+
+  "Kontakt": "Contact",
+  "Media": "Media",
+  "Apartamenty": "Apartments"
 }
+
 
 
 
