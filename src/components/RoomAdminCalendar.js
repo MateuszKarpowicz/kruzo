@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function RoomAdminCalendar() {
     const iframeRef = useRef(null);
+    const { i18n } = useTranslation();
 
     useEffect(() => {
         const iframe = iframeRef.current;
@@ -28,7 +30,7 @@ function RoomAdminCalendar() {
 
     return (
         <div>
-            <iframe ref={iframeRef} id="ra-calendar-single-630d9af10122cdf9de865fb57b257b5e" style={{width: '100%', height:'540px', border: 'none', padding: '0'}} src="//roomadmin.pl/widget/calendar-single/index?fh=cb81a00010bac72ae34311a71a167a269d02ac71&rid=77600&disableReservationButton=1&n=6&style=%7B%22color_accent%22%3A%22%23b4813e%22%2C%22color_bg%22%3A%22%23808080%22%7D"></iframe>
+            <iframe ref={iframeRef} id="ra-calendar-single-630d9af10122cdf9de865fb57b257b5e" style={{width: '100%', height:'540px', border: 'none', padding: '0'}} src={`//roomadmin.pl/widget/calendar-single/index?fh=cb81a00010bac72ae34311a71a167a269d02ac71&rid=77600&disableReservationButton=1&n=6&style=%7B%22color_accent%22%3A%22%23b4813e%22%2C%22color_bg%22%3A%22%23808080%22%7D&lang=${i18n.language}`}></iframe>
             <a href="https://roomadmin.pl">program dla obiektów noclegowych - roomadmin.pl</a>
         </div>
     );
