@@ -551,8 +551,9 @@ body {
 
     .surfer-clicker-container {
         position: relative;
-        width: 175px;
+        width: 170px;
         height: 135px;
+        left: 0;
     }
 
     .surfer-clicker-img {
@@ -596,8 +597,7 @@ body {
         flex-direction: row;
         justify-content: flex-end;
         width: 100%;
-        margin: 0;
-        padding-left: 170px;
+        padding-left: 160px;
         padding-right: 1px;
     }
 
@@ -605,12 +605,12 @@ body {
 
     .page-button {
         position: relative;
-        width: 80px;
-        height: 20px;
+        width: 70px;
+        height: 18px;
         font-size: 9px;
         justify-content: center;
         transform: rotate(-49deg);
-        z-index: 9999;
+        z-index: 9999999;
     }
 
     .page-button:hover{
@@ -622,7 +622,7 @@ body {
         height: 20px;
         margin: 0;
         padding: 0;
-        z-index: 999;
+        z-index: 999999999;
     }
 
     .nav-link{
