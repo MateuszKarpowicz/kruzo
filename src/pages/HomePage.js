@@ -19,6 +19,8 @@ const HomePage = () => {
         <Layout>
             <div className="content-container">
                 <RoomAdminWidget/>
+                <SloganCrusoe/>
+
                 <div className='content-container_up'>
                         <div className="header-container">
                         <HeaderTxt />
@@ -35,7 +37,6 @@ const HomePage = () => {
                     </div>
                     <div className='content-container_mid'>
                         <Highlights/>
-                        <SloganCrusoe/>
                     </div>
                     <div className='content-container_lower'>
                         <Awards/>
