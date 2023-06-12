@@ -47,13 +47,13 @@ body {
     z-index: 2;
 }
 
-
 .navbar-logo-container-img {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: 2;
+    pointer-events: none;
 }
 
 .surfer-clicker-img {
@@ -149,8 +149,6 @@ body {
 .navbar-social-links-phone:hover,
 .navbar-social-links-mail:hover {
     transform: scale(1.1);
-    filter: brightness(0);
-
 
 }
 
@@ -195,7 +193,7 @@ body {
     box-shadow: 0px 8px 16px #351F09;
     border-radius: 35px;
     opacity: 1;
-    z-index: 5;
+    z-index: 99999;
 }
 
 .page-button-book {
@@ -252,6 +250,11 @@ body {
     background-color: darkgray;
 }
 
+.test-block {
+    width: 100%;
+    height: 300px;
+}
+
 .footer-wrapper {
     width: 100%;
     background-color: #000000;
@@ -264,7 +267,7 @@ body {
 
 @media screen and (max-width: 850px){
     .footer-wrapper {
-    height:500px;
+    height:350px;
     }
 }
 
@@ -287,7 +290,7 @@ body {
     background-color: #D29035;
     display: flex;
     flex-direction: row;
-    padding-right: 250px;
+    padding-right: 150px;
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
@@ -309,7 +312,7 @@ body {
 .footer-friends-cava-img,
 .footer-friends-anioly-img,
 .footer-friends-nautica-img {
-    max-width: 100%;
+    max-width: 80px;
     height: auto;
 }
 
@@ -317,7 +320,7 @@ body {
     .footer-friends-cava-img,
 .footer-friends-anioly-img,
 .footer-friends-nautica-img {
-    max-width: 70px;
+    max-width: 50px;
 }
 }
 
@@ -543,20 +546,28 @@ body {
     .navbar-logo-container {
         height: 100px;
         width: 160px;
-        z-index: 5;
+        z-index: 4;
     }
 
     .surfer-clicker-container {
         position: relative;
-        width: 170px;
+        width: 175px;
         height: 135px;
-        left: 0;
     }
 
     .surfer-clicker-img {
         width: 100%;
         height: 100%;
+    }
 
+    .pointer-none {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        pointer-events: none;
+        z-index: 5;
     }
 
     .navbar-background-container {
@@ -585,22 +596,23 @@ body {
         flex-direction: row;
         justify-content: flex-end;
         width: 100%;
-        padding-left: 160px;
+        margin: 0;
+        padding-left: 170px;
         padding-right: 1px;
-        z-index: 3;
     }
 
 
 
     .page-button {
         position: relative;
-        width: 70px;
-        height: 18px;
+        width: 80px;
+        height: 20px;
         font-size: 9px;
         justify-content: center;
         transform: rotate(-49deg);
-        z-index: 6;
-        top: 5px;
+        margin: 0;
+        padding: 0;
+        z-index: 9999;
     }
 
     .page-button:hover{
@@ -612,11 +624,11 @@ body {
         height: 20px;
         margin: 0;
         padding: 0;
-        z-index: 5;
+        z-index: 999;
     }
 
     .nav-link{
-        z-index: 5;
+        z-index: 99999;
     }
 
     .page-button-book .nav-link-book {
@@ -657,7 +669,6 @@ body {
         right: 0;
         z-index: 50;
     }
-
 
 }
     .leafleat-container{

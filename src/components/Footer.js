@@ -11,10 +11,8 @@ import mailNavbar from '../assets/navbar/mail-navbar.png'
 import footerTexture from '../assets/footer/footer-texture.png'
 import apartmentsLogo from '../assets/footer/apartments-logo.png'
 import { Link } from "react-router-dom";
-import { useTranslation } from 'react-i18next';
 
 function Footer() {
-    const { t } = useTranslation();
 
     const handleButtonInsta = () => {
         window.open("https://www.instagram.com/crusoe_travel/", "_blank");
@@ -35,21 +33,21 @@ function Footer() {
     return (
         <div className="footer-wrapper">
             <div className="footer-container">
-                <div className="footer-friends-container">
+            <div className="footer-friends-container">
                     <div className="footer-friends-cava">
-                        <img className="footer-friends-cava-img" src={cavaFriends} alt="Cava Friends" />
+                    <a href="https://wolt.com/pl/pol/krakow/restaurant/bonjour-cava"><img className="footer-friends-cava-img" src={cavaFriends} alt="Cava Friends" /></a>
                     </div>
                     <div className="footer-friends-anioly">
-                        <img className="footer-friends-anioly-img" src={aniolyFriends} alt="Anioly Friends" />
+                    <a href="https://www.piekne-anioly.org/"><img className="footer-friends-anioly-img" src={aniolyFriends} alt="Anioly Friends" /></a>
                     </div>
                     <div className="footer-friends-nautica">
-                        <img className="footer-friends-nautica-img" src={nauticaFriends} alt="Nautica Friends" />
+                    <a href="https://nautica.pl/"><img className="footer-friends-nautica-img" src={nauticaFriends} alt="Nautica Friends" /></a>
                     </div>
                 </div>
                 <div className="footer-bandoc-pillow">
                     <img className="footer-bandoc-pillow-img" src={bandocPillowe} alt="Bandoc Pillow" />
                     <div className="footer-bandoc-logo">
-                        <img className="footer-bandoc-logo-img" src={bandocLogo} alt="Bandoc Logo" />
+                    <a href="https:/bandofcreators.com/"><img className="footer-bandoc-logo-img" src={bandocLogo} alt="Bandoc Logo" /></a>
                     </div>
                 </div>
                 <div className="footer-contact-container">
@@ -59,7 +57,7 @@ function Footer() {
                     <div className="footer-contact">
                         <div className="footer-contact-text-box">
                             <div className="footer-contact-header">
-                                <span>{t('Kontakt')}</span>
+                                <span>Kontakt</span>
                             </div>
                             <div className="footer-contact-phone" onClick={handleButtonPhone}>
                                 <img src={phoneNavbar} alt="phone-navbar" />
@@ -75,7 +73,7 @@ function Footer() {
                     <div className="footer-social-links">
                         <div className="footer-social-links-text-box">
                         <div className="footer-social-links-header">
-                            <span>{t('Media')}</span>
+                        <span>Media</span>
                         </div>
                             <div className="footer-social-links-insta" onClick={handleButtonInsta}>
                                 <img src={instaNavbar} alt="insta-navbar" />
@@ -91,11 +89,11 @@ function Footer() {
                     </div>
                     <div className="footer-apartments">
                         <div className="footer-apartments-header">
-                            <span>{t('Apartamenty')}</span>
+                        <span>Apartamenty</span>
                         </div>
-                        <div className="footer-apartments-zakopane">
+                        <div className="footer-apartments-krakow">
                             <img className="apartments-logo-zakopane" src={apartmentsLogo} alt="apartments-logo" />
-                            <Link to="/zakopane"><span>Zakopane</span></Link>
+                            <Link to="/krakow"><span>Kraków</span></Link>
                         </div>
                         <div className="footer-apartments-primosten">
                             <img className="apartments-logo-primosten" src={apartmentsLogo} alt="apartments-logo" />
