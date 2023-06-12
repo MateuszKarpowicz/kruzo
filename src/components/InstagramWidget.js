@@ -10,7 +10,7 @@ const InstagramWidget = () => {
                 title="Instagram Post"
                 src={instagramUrl}
                 width="100%"
-                height="100%"
+                height="510px"
                 frameBorder="0"
                 scrolling="no"
                 allowTransparency="true"
