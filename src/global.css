@@ -44,7 +44,7 @@ body {
     top: 0;
     width: 330px;
     height: 200px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .navbar-logo-container-img {
@@ -92,7 +92,7 @@ body {
     right: 0;
     height: 75px;
     width: 450px;
-    z-index: 1;
+    z-index: 3;
     display: flex;
     flex-direction: row;
 }
@@ -255,6 +255,72 @@ body {
     height: 300px;
 }
 
+
+.other-apartments-container{
+    font-family: Nineteenth, sans-serif;
+
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: linear-gradient(to right, #000000, #B87F2E);
+    justify-content: flex-end;
+    top: 210px;
+    position: absolute;
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+}
+
+.other-apartments-first{
+    color : #FFFFFF;
+    font-size: 22px;
+    flex-direction: row;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+
+
+}
+.other-apartments-logo-first{
+    height: 20px;
+    width: 20px;
+    object-fit: fill;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    z-index: 999;
+}
+.other-apartments-second{
+    color : #FFFFFF;
+    font-size: 22px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+.other-apartments-logo-second{
+    height: 20px;
+    width: 20px;
+    object-fit: fill;
+    margin-bottom: 5px;
+    margin-right: 5px;}
+
+.other-apartments-second:hover{
+    transform: scale(1.1);
+    filter: brightness(0);
+    transition: 0.3s ease-in-out;
+}
+.other-apartments-first:hover{
+    transform: scale(1.1);
+    filter: brightness(0);
+    transition: 0.3s ease-in-out;
+}
+
 .footer-wrapper {
     width: 100%;
     background-color: #000000;
@@ -264,14 +330,11 @@ body {
     left: 0;
     right: 0;
 }
-
 @media screen and (max-width: 850px){
     .footer-wrapper {
-    height:350px;
+        height:350px;
     }
 }
-
-
 .footer-container {
     display : flex;
     width: 100%;
@@ -280,7 +343,6 @@ body {
     flex-direction: column;
     position: relative;
 }
-
 .footer-friends-container {
     top: 0;
     left: 0;
@@ -295,35 +357,30 @@ body {
     align-items: center;
     color: #FFFFFF;
 }
-
 @media screen and (max-width: 850px){
-.footer-friends-container {
-    width: 100%;
+    .footer-friends-container {
+        width: 100%;
+    }
 }
-}
-
 .footer-friends-cava,
 .footer-friends-anioly,
 .footer-friends-nautica {
     flex: 1;
     text-align: center;
 }
-
 .footer-friends-cava-img,
 .footer-friends-anioly-img,
 .footer-friends-nautica-img {
     max-width: 80px;
     height: auto;
 }
-
 @media screen and (max-width: 850px){
     .footer-friends-cava-img,
-.footer-friends-anioly-img,
-.footer-friends-nautica-img {
-    max-width: 50px;
+    .footer-friends-anioly-img,
+    .footer-friends-nautica-img {
+        max-width: 50px;
+    }
 }
-}
-
 .footer-bandoc-pillow {
     height: 170px;
     width: 300px;
@@ -331,12 +388,10 @@ body {
     right: 0;
     position: absolute;
 }
-
 .footer-bandoc-pillow-img {
     height: 100%;
     object-fit: contain;
 }
-
 @media screen and (max-width: 850px){
     .footer-bandoc-pillow-img {
         position: absolute;
@@ -345,7 +400,6 @@ body {
         object-fit: contain;
     }
 }
-
 .footer-bandoc-logo {
     top: 0;
     right: 0;
@@ -354,13 +408,11 @@ body {
     height: 170px;
     z-index: 1;
 }
-
 .footer-bandoc-logo-img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-
 @media screen and (max-width: 850px){
     .footer-bandoc-logo-img {
         height: 50%;
@@ -368,7 +420,6 @@ body {
         object-fit: contain;
     }
 }
-
 .footer-contact-container {
     height: 180px;
     width: 100%;
@@ -382,18 +433,15 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 @media screen and (max-width: 850px){
     .footer-contact-container {
         height: 1000px;
         flex-direction: column;
     }
-  }
-
+}
 .footer-contact-container:hover {
     color: black;
 }
-
 .footer-texture {
     left: 0;
     right: 0;
@@ -403,21 +451,26 @@ body {
     position: absolute;
     z-index: 0;
 }
-
 .footer-texture-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-
 .footer-contact {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     z-index: 1;
+    padding-left: 100px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-contact {
+        padding-left: 60px;
+    }}
+
 
 .footer-contact-text-box {
     display: flex;
@@ -426,13 +479,11 @@ body {
     width: fit-content;
     z-index: 1;
 }
-
 .footer-contact span {
     color: white;
     font-size: 20px;
     flex-direction: row;
 }
-
 .footer-contact-phone,
 .footer-contact-mail {
     flex: 1;
@@ -441,17 +492,14 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .footer-contact-phone img,
 .footer-contact-mail img {
-
     height: 20px;
     width: 20px;
     object-fit: fill;
     margin-right: 5px;
     margin-top: 3px;
 }
-
 .footer-social-links {
     flex: 1;
     display: flex;
@@ -460,7 +508,6 @@ body {
     justify-content: center;
     z-index: 1;
 }
-
 .footer-social-links-text-box {
     display: flex;
     flex-direction: column;
@@ -468,7 +515,6 @@ body {
     width: fit-content;
     z-index: 1;
 }
-
 .footer-social-links img {
     height: 20px;
     width: 20px;
@@ -476,19 +522,71 @@ body {
     margin-bottom: 5px;
     margin-right: 5px;
 }
-
 .footer-social-links span {
     font-size: 20px;
     color: #FFFFFF;
 }
-
 .footer-apartments {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     z-index: 1;
+    padding-left: 100px;
+}
+.footer-apartments-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    z-index: 1;
+}
+.apartments-logo-zakopane,
+.apartments-logo-primosten {
+    height: 20px;
+    width: 20px;
+    object-fit: fill;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.footer-apartments-primosten:hover {
+    transform: scale(1.1);
+    filter: brightness(0);
+    cursor: pointer;
+
+}
+
+.footer-apartments-zakopane:hover {
+    transform: scale(1.1);
+    filter: brightness(0);
+    cursor: pointer;
+
+}
+
+.footer-apartments span,
+.footer-apartments a,
+.footer-apartments .link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.footer-social-links-insta,
+.footer-social-links-fb {
+    transition: filter 0.3s ease;
+}
+.footer-social-links-insta:hover,
+.footer-social-links-fb:hover {
+    filter: brightness(0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.footer-contact-phone:hover,
+.footer-contact-mail:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: brightness(0);
 }
 
 .apartments-logo-zakopane,
@@ -677,3 +775,19 @@ body {
   }
 
 
+@media screen and (max-width: 768px) {
+    .other-apartments-container{
+        height: 50px;
+        top: 120px;
+    }
+    .other-apartments-second{
+        font-size: 15px;
+        padding-right: 5px;
+
+
+    }
+    .other-apartments-first{
+        font-size: 15px;
+        padding: 0;
+    }
+}

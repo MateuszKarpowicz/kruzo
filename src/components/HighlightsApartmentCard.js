@@ -4,6 +4,8 @@ import sofaIcon from '../assets/highlights/sofa-icon.png';
 import foodIcon from '../assets/highlights/food-icon.png';
 import washerIcon from '../assets/highlights/washer-icon.png';
 import climatIcon from '../assets/highlights/clima-icon.png';
+import krakowIcon from '../assets/highlights/krakow-icon.png';
+
 
 import "../scss/HighlightsApartmentCard.scss";
 
@@ -16,6 +18,7 @@ const HighlightsApartmentCard = () => {
                 <div className="highlights-food" style={{ backgroundImage: `url(${foodIcon})` }}></div>
                 <div className="highlights-washer" style={{ backgroundImage: `url(${washerIcon})` }}></div>
                 <div className="highlights-clima" style={{ backgroundImage: `url(${climatIcon})` }}></div>
+                <div className="highlights-krakow" style={{ backgroundImage: `url(${krakowIcon})` }}></div>
             </div>
         </div>
     );
